@@ -68,7 +68,7 @@ def main():
     find_objects = ['person', 'fire_extinguisher', 'fireplug', 'car', 'bicycle', 'motorcycle']
     yolo = YOLO()
 
-    for cnt in range(1, 51):
+    for cnt in range(1, 2):
         video_path = "./t1_video/t1_video_%05d" % cnt
         images = os.listdir(video_path)
         images.sort()

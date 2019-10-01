@@ -37,3 +37,6 @@ b. 训练完成后执行 ./convert.sh 将模型转换后，执行 ./test.sh 对 
 训练模型需要并修改 ./train/yolo3_object.data 的路径后执行 ./train.sh 进行训练
 检测模型基于 darknet 框架，训练集提取了VOC2007和2012、COCO数据集的行人数据和虚拟行人数据集进行训练
 追踪模型基于 cosine_metric_learning 训练集采用了Market1501 MOT行人数据集进行训练
+
+
+行人多目标跟踪_fly_piggy
